@@ -246,7 +246,7 @@ At the end of the day, I believe it's all about aiming to achieve your ultimate 
       <p>Like most computer scientists out there, I have been computing since I was a little one & the fascination just grew bigger with every mouse-click. <br><br> 
       I then dove into visual arts and using photo editing software to create logos, posters & avatars for my gamer profiles, but it wasn't enough yet.<br> <br>
       So I majored in client/server scripting at varsity so I could fuse in the art with the code & I have been upskilling ever since. <br><br>
-      I'm currently a junior developer for African Ideas, based in Cape Town. <br> My daily tasks include full-stack web applications development and site maintenance.</p>
+      I'm currently a junior developer for African Ideas, based in Cape Town. <br> <br>My daily tasks include full-stack web applications development and site maintenance.</p>
     </div>
   </div> 
   <p class="w3-large w3-center w3-padding-16">I'm really good at:</p>
@@ -363,7 +363,68 @@ At the end of the day, I believe it's all about aiming to achieve your ultimate 
       <img class="demo cursor" src="/img/block.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
     </div>
   </div>
+</div> <br>
+<div class="row">
+  <div class="column">
+    <img src="/img/block.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="/img/block.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="/img/block.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="/img/block.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
 </div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="/img/block.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="/img/block.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="/img/block.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="/img/block.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="/img/block.png" style="width:100%" onclick="currentSlide(1)" alt="Luigii">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/img/block.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/img/block.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/img/block.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div> <br>
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
@@ -430,7 +491,7 @@ At the end of the day, I believe it's all about aiming to achieve your ultimate 
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="/img/map.png" class="w3-image w3-round" style="min-height:400px min-width:200px">
+      <img src="/img/map.png" class="w3-image w3-round" style="min-height:500px min-width:250px">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
